@@ -1,0 +1,32 @@
+[
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "HTML",
+    "level": "Expert"
+  },
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "CSS",
+    "level": "Expert"
+  },
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "Javascript",
+    "level": "Expert"
+  },
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "Bootstrap 5",
+    "level": "Expert"
+  },
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "Tailwindcss",
+    "level": "Experienced"
+  },
+  {
+    "icon_name": "FaCheckCircle",
+    "skill": "React",
+    "level": "Intermediate"
+  }
+]

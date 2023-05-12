@@ -1,0 +1,9 @@
+.social::after {
+    content: "";
+    position: absolute;
+    left: .7rem;
+    top: 8.5rem;
+    background-color:#58E3C4;
+    height: 100%;
+    width: 1%;
+}

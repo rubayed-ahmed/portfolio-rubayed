@@ -1,0 +1,10 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Shippori Antique B1', sans-serif;
+  background: #0e1129; 
+  color: #fff;
+}
