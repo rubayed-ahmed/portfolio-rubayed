@@ -31,7 +31,7 @@ const getProducts = () => {
           <div className="text-center p-10 py-10">
             <span className="text-lg">Hey, I'm</span>
             <h2 className="text-4xl md:text-6xl py-2 text-[#58E3C4] font-medium leading-8 capitalize">
-              Salahddin Khan Shohan
+              Rubayed Ahmed
             </h2>
             <h3 className="text-md md:text-xl py-2 dark:text-white">
               Web Designer & Developer

@@ -48,22 +48,22 @@ const Contact = () => {
           <div className="border border-[#58E3C4] transition-white-200 ease-linear cursor-pointer py-8 px-8 rounded-xl flex flex-col items-center justify-center">
             <span className="text-2xl mb-4"><FaFacebookMessenger/></span>
             <p className-="text-lg">Messenger</p>
-            <h4 className="mb-3 text-md">Salahddin Khan Shohan</h4>
-            <a className="text-sm" href="https://m.me/ShohanKhanDBZ" target="_blank" rel="noreferrer">Send A Message</a>
+            <h4 className="mb-3 text-md">Rubayed Ahmed</h4>
+            <a className="text-sm" href="https://m.me/rubayed05" target="_blank" rel="noreferrer">Send A Message</a>
           </div>
 
           <div className="border border-[#58E3C4] transition-white-200 ease-linear cursor-pointer py-8 px-8 rounded-xl flex flex-col items-center justify-center my-6">
             <span className="text-2xl mb-4"><FaEnvelope/></span>
             <p className-="text-lg">Email</p>
-            <h4 className="mb-3 text-md">shohankhan@gmail.com</h4>
-            <a href="mailto:shohankhan@gmail.com" target="_blank" rel="noreferrer" className="text-sm ">Send A Message</a>
+            <h4 className="mb-3 text-md">rubayed.ahmed02@gmail.com</h4>
+            <a href="mailto:rubayed.ahmed02@gmail.com" target="_blank" rel="noreferrer" className="text-sm ">Send A Message</a>
           </div>
 
           <div className="border border-[#58E3C4] transition-white-200 ease-linear cursor-pointer py-8 px-8 rounded-xl flex flex-col items-center justify-center">
             <span className="text-2xl mb-4"><FaWhatsapp/></span>
             <p className-="text-lg">Whatsapp</p>
-            <h4 className="mb-3 text-md">+8801710881414</h4>
-            <a href="https://api.whatsapp.com/send?phone++01710881414" target="_blank" rel="noreferrer" className="text-sm">Send A Message</a>
+            <h4 className="mb-3 text-md">+8801327057302</h4>
+            <a href="https://api.whatsapp.com/send?phone++01327057302" target="_blank" rel="noreferrer" className="text-sm">Send A Message</a>
           </div>
 
         </div>
