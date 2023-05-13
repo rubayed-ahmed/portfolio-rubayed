@@ -3,27 +3,8 @@ import { FaLinkedinIn, FaGithub, FaFacebook } from "react-icons/fa";
 import deved from "../../../assets/dev-ed-wave.png";
 import "./Banner.css";
 import { Link } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { fetchDataFromApi } from "../../../utils/api";
 
 const Banner = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  useEffect(() => {
-    getProducts();
-}, []);
-
-const getProducts = () => {
-    fetchDataFromApi("/api/projects?populate=*").then((res) => {
-      console.log(res)
-    });
-};
-
-
-
   return (
     <section id="home" data-aos="fade-down">
       <div className="md:px-20 lg:px-40 md:py-12">

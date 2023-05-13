@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { fetchDataFromApi } from "../../../utils/api";
 
 const Works = () => {
   const [projects, setProjects] = useState();
@@ -12,11 +11,12 @@ const Works = () => {
   }, []);
 
   useEffect(() => {
-    fetch("https://shohan-portfolio-server.vercel.app/projects")
+    fetch("http://localhost:5000/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
 
+  console.log(projects)
 
 
   return (
@@ -45,6 +45,7 @@ const Works = () => {
               <p className="text-slate-300 my-6 leading-8">
                 {project?.project_overview.slice(0, 150)}
               </p>
+              
               <Link
                 to={`/project/${project?._id}`}
                 className="bg-[#58E3C4] hover:bg-transparent hover:border text-black hover:text-white transition-all 

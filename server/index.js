@@ -9,7 +9,8 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.dqxuygr.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.kjjr1js.mongodb.net/?retryWrites=true&w=majority`;
+// Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
@@ -20,9 +21,9 @@ const client = new MongoClient(uri, {
 
 async function run() {
     try {
-      const projectsCollection = client.db("shohan-portfolio").collection("projects");
-      const experiencesCollection = client.db("shohan-portfolio").collection("experiences");
-      const backendExperiencesCollection = client.db("shohan-portfolio").collection("experiences-backend");
+      const projectsCollection = client.db("portfolio").collection("projects");
+      const experiencesCollection = client.db("portfolio").collection("experiences");
+      const backendExperiencesCollection = client.db("portfolio").collection("experiences-backend");
 
       // Projects
       app.get("/projects", async (req, res) => {
