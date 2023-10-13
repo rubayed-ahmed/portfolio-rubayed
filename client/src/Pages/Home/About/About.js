@@ -23,7 +23,7 @@ const About = () => {
           to-[#58E3C4] aspect-square"
           >
             <img
-              src="https://i.ibb.co/CWZg7qD/rubayed.jpg"
+              src="https://i.ibb.co/0CPQ42f/Whats-App-Image-2023-10-13-at-6-37-18-PM.jpg"
               className="w-full h-96 object-cover rounded-3xl rotate-[10deg] hover:rotate-0 overflow-hidden
                transition-all duration-200 ease-linear cursor-pointer"
               alt=""
