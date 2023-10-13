@@ -52,8 +52,8 @@ const Wrapper = styled.section`
     box-shadow: ${({ theme }) => theme.colors?.shadow};
     border-radius: 50%;
     position: fixed;
-    bottom: 1rem;
-    right: 2rem;
+    bottom: 5rem;
+    right: .1rem;
     z-index: 999;
     display: flex;
     justify-content: center;

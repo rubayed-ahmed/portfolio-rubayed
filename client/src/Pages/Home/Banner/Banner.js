@@ -55,7 +55,7 @@ const Banner = () => {
               />
             </div>
 
-            <ul className="social absolute top-[50%] left-[5%] md:left-0">
+            <ul className="social absolute top-[60%] left-[2%] md:left-0">
               <Link
                 to="https://www.linkedin.com/in/rubayed-ahmed-a7b49121b/"
                 target="_blank"

@@ -19,19 +19,18 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center mt-20">
         <div className="mb-12 md:mb-0" data-aos="fade-right">
           <div
-            className="w-[70%] h-96 rounded-3xl bg-gradient-to-r from-transparent mx-auto
-          to-[#58E3C4] aspect-square"
-          >
+            className="w-[70%] h-80 lg:h-96 rounded-3xl bg-gradient-to-r from-transparent mx-auto
+          to-[#58E3C4] aspect-square">
             <img
               src="https://i.ibb.co/0CPQ42f/Whats-App-Image-2023-10-13-at-6-37-18-PM.jpg"
-              className="w-full h-96 object-cover rounded-3xl rotate-[10deg] hover:rotate-0 overflow-hidden
+              className="w-full h-80 lg:h-96 object-cover rounded-3xl rotate-[10deg] hover:rotate-0 overflow-hidden
                transition-all duration-200 ease-linear cursor-pointer"
               alt=""
             />
           </div>
         </div>
 
-        <div data-aos="fade-left">
+        <div data-aos="fade-left" className="mb-12">
           <div>
             <h3 className="text-2xl font-semibold">Get to know</h3>
             <p className="mt-6 mb-12 text-slate-300">
@@ -58,6 +57,7 @@ const About = () => {
             Let's Talk
           </a>
         </div>
+        
       </div>
     </section>
   );
