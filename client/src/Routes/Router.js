@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     {
             path: "/project/:id",
             element: <ProjectDetails/>,
-            loader: ({ params }) => fetch(`http://localhost:5000/project/${params.id}`)
+            loader: ({ params }) => fetch(`https://rubayed-portfolio.vercel.app/project/${params.id}`)
     },
     {
             path: "/admin",
